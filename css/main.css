@@ -2,8 +2,31 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Merriweather", serif;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+
+  background-color: #d05c2e;
+  border-bottom: 3px solid #a63f38;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
 }
