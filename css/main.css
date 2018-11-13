@@ -20,16 +20,17 @@ header {
 
 .img-1 {
   width: 40px;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: left;
 }
 
 .img-2 {
   width: 40px;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: right;
+
 }
 
 h1 {
