@@ -21,12 +21,14 @@ header {
 .img-1 {
   width: 40px;
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
 .img-2 {
   width: 40px;
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -57,7 +59,7 @@ li a {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-content: center;
-  border: 2px solid #a63f38;
+  border: 1px solid #a63f38;
 }
 
 .nav a:hover {
