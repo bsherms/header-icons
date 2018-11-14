@@ -22,9 +22,9 @@ div {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  align-content: center;
-  align-items: stretch;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em 0;
 }
 
 img {
@@ -33,11 +33,9 @@ img {
 }
 
 h1 {
-  /* margin: 0; */
-  /* padding: .5em 0; */
+  margin: 0;
   color: #fff;
   font-size: 2rem;
-  /* width: 100%; */
 }
 
 ul {
@@ -50,6 +48,7 @@ li a {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
+
 }
 
 .nav {
@@ -59,6 +58,11 @@ li a {
   justify-content: space-around;
   align-content: center;
   border: 1px solid #a63f38;
+}
+
+li:nth-child(2) {
+  border-left: 1px solid #a63f38;
+  border-right: 1px solid #a63f38;
 }
 
 .nav a:hover {
