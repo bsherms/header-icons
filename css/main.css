@@ -40,14 +40,21 @@ h1 {
 
 ul {
   margin: 0;
+  padding: 0;
   list-style-type: none;
-  padding: .4rem 0;
+}
+
+li {
+  width: 33.3333%;
 }
 
 li a {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
+  padding: .4rem 0;
+  display: block;
+  text-align: center;
 }
 
 .nav {
